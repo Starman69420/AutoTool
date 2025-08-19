@@ -3,7 +3,7 @@ const path = require('path');
 const { v4: uuidv4 } = require('uuid');
 const marked = require('marked');
 
-const requirementsDir = path.join(__dirname, '../../../uploads');
+const requirementsDir = path.join(__dirname, '../../uploads');
 fs.ensureDirSync(requirementsDir);
 
 // Helper to get all requirements

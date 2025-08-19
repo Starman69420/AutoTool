@@ -180,7 +180,7 @@ exports.createContainer = async (req, res) => {
     }
     
     // Create a temporary directory to mount in the container
-    const tmpDir = path.join(__dirname, '../../../test-results', uuidv4());
+    const tmpDir = path.join(__dirname, '../../test-results', uuidv4());
     fs.ensureDirSync(tmpDir);
     
     // Write the script to the temp directory

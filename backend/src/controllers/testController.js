@@ -7,7 +7,7 @@ const { v4: uuidv4 } = require('uuid');
 const docker = new Docker();
 
 // Directory for test results
-const testResultsDir = path.join(__dirname, '../../../test-results');
+const testResultsDir = path.join(__dirname, '../../test-results');
 fs.ensureDirSync(testResultsDir);
 
 // Helper to parse test output for issues
