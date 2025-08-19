@@ -1,11 +1,11 @@
 const axios = require('axios');
 const { OpenAI } = require('openai');
-const Anthropic = require('anthropic');
+const Anthropic = require('@anthropic-ai/sdk');
 const fs = require('fs-extra');
 const path = require('path');
 const { v4: uuidv4 } = require('uuid');
 
-const scriptsDir = path.join(__dirname, '../../../scripts');
+const scriptsDir = path.join(__dirname, '../../scripts');
 fs.ensureDirSync(scriptsDir);
 
 // Initialize LLM clients (to be set when keys are provided)
