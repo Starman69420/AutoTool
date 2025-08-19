@@ -1,0 +1,21 @@
+# Server Configuration
+PORT=3001
+NODE_ENV=development
+
+# MongoDB Configuration (if added later)
+MONGODB_URI=mongodb://localhost:27017/autotool
+
+# CORS Configuration
+CORS_ORIGIN=http://localhost:3000
+
+# Docker Configuration
+# Leave empty to use default Docker socket
+DOCKER_HOST=
+
+# Logging Configuration
+LOG_LEVEL=info
+
+# File Storage Paths
+UPLOADS_DIR=uploads
+SCRIPTS_DIR=scripts
+TEST_RESULTS_DIR=test-results
