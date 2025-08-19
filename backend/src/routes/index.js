@@ -6,11 +6,11 @@ const { v4: uuidv4 } = require('uuid');
 const fs = require('fs-extra');
 
 // Import controllers
-const requirementController = require('./controllers/requirementController');
-const scriptController = require('./controllers/scriptController');
-const dockerController = require('./controllers/dockerController');
-const llmController = require('./controllers/llmController');
-const testController = require('./controllers/testController');
+const requirementController = require('../controllers/requirementController');
+const scriptController = require('../controllers/scriptController');
+const dockerController = require('../controllers/dockerController');
+const llmController = require('../controllers/llmController');
+const testController = require('../controllers/testController');
 
 // Configure multer for file uploads
 const storage = multer.diskStorage({

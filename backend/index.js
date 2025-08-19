@@ -58,7 +58,7 @@ app.use(bodyParser.json({ limit: '50mb' }));
 app.use(bodyParser.urlencoded({ extended: true, limit: '50mb' }));
 
 // Import routes
-const apiRoutes = require('./api/routes');
+const apiRoutes = require('./src/routes');
 
 // Set up socket.io connection handling
 io.on('connection', (socket) => {

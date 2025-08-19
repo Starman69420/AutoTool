@@ -2,7 +2,7 @@ const fs = require('fs-extra');
 const path = require('path');
 const { v4: uuidv4 } = require('uuid');
 
-const scriptsDir = path.join(__dirname, '../../../scripts');
+const scriptsDir = path.join(__dirname, '../../scripts');
 fs.ensureDirSync(scriptsDir);
 
 // Helper to get all scripts
